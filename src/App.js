@@ -9,6 +9,8 @@ import ConditionalRendering from "./components/conditionalRendering/ConditionalR
 import ListsAndKeys from "./components/listsAndKeys/ListsAndKeys";
 import Forms from "./components/forms/Forms";
 */
+import LiftingStateUp from "./components/liftingStateUp/LiftingStateUp";
+import CompositionVsInheritance from "./components/compositionVsInheritance/CompositionVsInheritance";
 
 const App = () => {
     return (
@@ -21,6 +23,8 @@ const App = () => {
              <ListsAndKeys />
              <Forms />
             */}
+            <LiftingStateUp />
+            <CompositionVsInheritance />
         </div>
     );
 };
