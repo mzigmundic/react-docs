@@ -8,13 +8,14 @@ import HandlingEvents from "./components/handlingEvents/HandlingEvents";
 import ConditionalRendering from "./components/conditionalRendering/ConditionalRendering";
 import ListsAndKeys from "./components/listsAndKeys/ListsAndKeys";
 import Forms from "./components/forms/Forms";
-*/
 import LiftingStateUp from "./components/liftingStateUp/LiftingStateUp";
 import CompositionVsInheritance from "./components/compositionVsInheritance/CompositionVsInheritance";
+import ThinkingInReact from "./components/thinkingInReact/ThinkingInReact";
+*/
 
 const App = () => {
     return (
-        <div className="text-center">
+        <div>
             {/*
              <ComponentsAndProps />
              <StateAndLifecycle />
@@ -22,9 +23,10 @@ const App = () => {
              <ConditionalRendering />
              <ListsAndKeys />
              <Forms />
+             <LiftingStateUp />
+             <CompositionVsInheritance />
+             <ThinkingInReact />
             */}
-            <LiftingStateUp />
-            <CompositionVsInheritance />
         </div>
     );
 };

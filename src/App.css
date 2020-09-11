@@ -6,3 +6,50 @@
 .text-center {
     text-align: center;
 }
+
+.fancy-border {
+    padding: 10px;
+    border: 10px solid;
+}
+
+.fancy-border-blue {
+    border-color: blue;
+}
+
+.dialog-title {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.dialog-message {
+    font-size: larger;
+}
+
+.split-plane {
+    width: 100%;
+    height: 200px;
+}
+
+.split-plane-left {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.split-plane-right {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.contacts {
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+}
+
+.chat {
+    width: 100%;
+    height: 100%;
+    background: pink;
+}
